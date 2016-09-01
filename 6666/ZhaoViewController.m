@@ -7,7 +7,8 @@
 //
 
 #import "ZhaoViewController.h"
-
+#import "HanViewController.h"
+#import "LeiViewController.h"
 @interface ZhaoViewController ()
 
 @end
@@ -17,6 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+- (IBAction)back:(UIButton *)sender {
+    HanViewController* VC=[[HanViewController alloc]init];
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    NSLog(@"%@",VC);
+    
+    
+}
+
+- (IBAction)goto:(UIButton *)sender {
+    LeiViewController* leiVe=[[LeiViewController alloc]init];
+    [self presentViewController:leiVe animated:YES completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
