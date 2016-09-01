@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042B9ED71D78744E00DAD5EF /* M.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 042B9ED61D78744E00DAD5EF /* M.jpeg */; };
 		3F7029591D7941C00039257B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7029581D7941C00039257B /* main.m */; };
 		3F70295C1D7941C00039257B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F70295B1D7941C00039257B /* AppDelegate.m */; };
 		3F70295F1D7941C00039257B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F70295E1D7941C00039257B /* ViewController.m */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042B9ED61D78744E00DAD5EF /* M.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = M.jpeg; sourceTree = "<group>"; };
 		3F7029541D7941C00039257B /* 6666.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 6666.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7029581D7941C00039257B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F70295A1D7941C00039257B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				3F7029791D7944DC0039257B /* LeiViewController.m */,
 				3F70297A1D7944DC0039257B /* LeiViewController.xib */,
 				3F7029601D7941C00039257B /* Main.storyboard */,
+				042B9ED61D78744E00DAD5EF /* M.jpeg */,
 				3F7029631D7941C00039257B /* Assets.xcassets */,
 				3F7029651D7941C00039257B /* LaunchScreen.storyboard */,
 				3F7029681D7941C00039257B /* Info.plist */,
@@ -160,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042B9ED71D78744E00DAD5EF /* M.jpeg in Resources */,
 				3F7029771D7944C20039257B /* ZhaoViewController.xib in Resources */,
 				3F7029721D7941DC0039257B /* HanViewController.xib in Resources */,
 				3F7029671D7941C00039257B /* LaunchScreen.storyboard in Resources */,
